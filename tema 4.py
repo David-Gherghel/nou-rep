@@ -34,7 +34,7 @@ while incercari_ramase>0:
     print(progres)
     print(litere_incercate)
     if("_" not in progres):
-        print("Felicitari ai ghicit cuvantul")
+        print(f"Felicitari ai ghicit cuvantul {cuvant_de_ghicit}")
         break
 if(incercari_ramase==0):
     print(f"Ai pierdut,cuvantul era {cuvant_de_ghicit}")
